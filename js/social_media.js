@@ -1,9 +1,17 @@
-const tab = document.getElementById("icon_tab");
+function buttonAnimation(pressedButton) {
+    if (pressedButton.classList.contains('social-media-pressed')) {
+        pressedButton.classList.remove('social-media-pressed');
+        pressedButton.classList.add('social-media');
 
-function hideShow() {
-    if (tab.style.display === "flex") {
-        tab.style.display = "none";
-    } else {
-        tab.style.display === "flex";
+        setTimeout(function() {
+            pressedButton.classList.remove('social-media');
+            pressedButton.classList.add('social-media-pressed');
+        }, 3000);
     }
 }
+
+document.getElementById('icon-tab').addEventListener('mouseenter', (e) => {
+    if (e.target.classList.contains('social')) {
+        buttonAnimation(e.target);
+    }
+});
