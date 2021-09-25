@@ -25,3 +25,20 @@
     padding: 21% 0% 0% 4%;
     width: 80%;
 }
+
+@media screen and (max-width: 1000px) {
+    .about-text-left,
+    .about-text-right {
+        padding: 2%;
+    }
+    .row img[src="images/about_3.png"] {
+        display: block;
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .row img {
+        padding: 0;
+        width: 100%;
+    }
+}

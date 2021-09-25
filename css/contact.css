@@ -1,58 +1,80 @@
-.content {
-    display: flex;
-    margin: 30px;
-}
-
-.contact-text {
-    text-align: left;
-    padding: 8rem 0 8rem 8rem;
-    font-size: 1.3rem;
-    line-height: 2rem;
-}
-
-.form-container {
-    border: 3px solid var(--var-yellow);
-    border-radius: 18px;
-    margin: auto;
-    padding: 30px;
-    width: fit-content;
-}
-
-.form {
-    width: 50%;
-}
-
-.form p {
-    text-align: center;
-    padding: 10rem 0 10rem 10rem;
-    font-size: 1.3rem;
-    line-height: 2rem;
-}
-
-.detail {
-    display: flex;
-    flex-direction: column;
-}
-
-.detail input {
-    height: 45px;
-}
-
-.detail input,
-.detail textarea {
-    margin: 10px 0;
-    border-radius: 18px;
-    width: 500px;
-    border: 1px solid lightgrey;
-}
-
-button {
-    background-color: var(--main-color);
-    border: none;
-    color: var(--color-light);
-    text-align: center;
-    width: 100%;
-    border-radius: 18px;
-    height: 45px;
-    font-size: 20px;
-}
+    .content {
+        display: flex;
+        margin: 30px;
+    }
+    
+    .contact-text {
+        text-align: left;
+        padding: 8rem 0 8rem 8rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    
+    .form-container {
+        border: 3px solid var(--var-yellow);
+        border-radius: 18px;
+        margin: auto;
+        padding: 30px;
+        width: fit-content;
+    }
+    
+    .form {
+        width: 50%;
+    }
+    
+    .form p {
+        text-align: center;
+        padding: 10rem 0 10rem 10rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    
+    .detail {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .detail input {
+        height: 45px;
+    }
+    
+    .detail input,
+    .detail textarea {
+        margin: 10px 0;
+        border-radius: 18px;
+        width: 500px;
+        border: 1px solid lightgrey;
+    }
+    
+    button {
+        background-color: var(--main-color);
+        border: none;
+        color: var(--color-light);
+        text-align: center;
+        width: 100%;
+        border-radius: 18px;
+        height: 45px;
+        font-size: 20px;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        .content {
+            display: block;
+        }
+        .form {
+            width: 100%;
+        }
+        .contact-text {
+            text-align: left;
+            padding: 0;
+            line-height: 2rem;
+        }
+        .detail input,
+        .detail textarea {
+            width: 100%;
+        }
+        .form-container {
+            padding: 1rem;
+            width: 100%;
+        }
+    }
