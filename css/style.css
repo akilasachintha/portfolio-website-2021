@@ -179,6 +179,7 @@ hr {
     height: 100%;
     padding: 10% 0 5% 20%;
     position: relative;
+    cursor: pointer;
 }
 
 .centered {
@@ -266,6 +267,7 @@ img[src="images/user_orange 1.png"] {
     background-color: #FF9F1C;
     padding: 11px 30px;
     color: #fff;
+    font-size: 20px;
 }
 
 .form-comment {
