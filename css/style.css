@@ -89,6 +89,12 @@ hr {
     border-radius: 2rem;
 }
 
+.active {
+    color: #fff;
+    background-color: #FF9F1C;
+    border-radius: 2rem;
+}
+
 .nav-logo {
     color: #000000;
     text-align: center;
@@ -365,7 +371,7 @@ img[src="images/user_orange 1.png"] {
         display: inline-block;
         width: 2.5rem;
         position: absolute;
-        right: 1rem;
+        right: 0.5rem;
         top: 0.5rem;
     }
     .dropdown {

@@ -65,4 +65,7 @@ button {
     .content {
         padding: 2%;
     }
+    .com-text {
+        padding: 0 10%;
+    }
 }
