@@ -90,7 +90,8 @@ h1 {
 /* Social media icons */
 
 .social-media {
-    width: 120px;
+    width: 85px;
+    height: 170px;
     background-color: var(--var-green);
     float: right;
     border-radius: 64px 0 0 64px;
@@ -104,7 +105,7 @@ h1 {
 
 .social-media-pressed {
     width: 0;
-    height: 225px;
+    height: 170px;
     background-color: var(--var-green);
     border-radius: 64px 0 0 64px;
     padding: 10px;
@@ -116,7 +117,7 @@ h1 {
 }
 
 .social-media img {
-    width: 74px;
+    width: 50px;
     margin: 8px;
 }
 
@@ -164,5 +165,13 @@ h1 {
 .card {
     width: 90%;
     height: 100%;
-    padding: 10% 0 10% 20%;
+    padding: 10% 0 5% 20%;
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

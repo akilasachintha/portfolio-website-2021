@@ -1,29 +1,27 @@
-.row{
-    padding: 88px;
-}
-
-.left{
+.about-text-left {
     text-align: center;
-    padding: 0 10rem 10rem 10rem;
+    padding: 20% 0 20% 30%;
     font-size: 1.3rem;
-    line-height: 2rem;
 }
 
-.right{
+.about-text-right {
     text-align: center;
-    padding: 10rem 10rem 10rem 0;
+    padding: 20% 30% 20% 0;
     font-size: 1.3rem;
-    line-height: 2rem;
 }
 
-.middle{
+.middle {
     background-color: var(--main-color);
     color: var(--color-light);
 }
 
-.row img{
-    width: 600px;
-    display: block;
-    margin: auto;
-    padding-top: 30px;
+.row img {
+    padding: 8%;
+    width: 90%;
+    margin: 0;
+}
+
+.row img[src="images/about_3.png"] {
+    padding: 21% 0% 0% 4%;
+    width: 80%;
 }
