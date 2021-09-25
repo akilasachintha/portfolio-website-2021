@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --main-color: #FF9F1C;
     --color-dark: #000000;
     --color-light: #FFFFFF;
@@ -21,6 +21,27 @@ body {
 
 h1 {
     margin: 0;
+}
+
+
+/* Basic Css Styles */
+
+.container {
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1 0 0;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
 }
 
 
@@ -68,19 +89,6 @@ h1 {
 
 /* Main Content */
 
-.container {
-    padding: 1rem;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex: 1 0 0;
-}
-
 .main-title {
     padding: 10rem 0 15rem 15rem;
     font-size: 1.3rem;
@@ -114,4 +122,13 @@ h1 {
     padding: 10rem 10rem 10rem 0;
     font-size: 1.3rem;
     line-height: 2rem;
+}
+
+
+/* Gallery Card */
+
+.card {
+    width: 90%;
+    height: 100%;
+    padding: 10%;
 }
