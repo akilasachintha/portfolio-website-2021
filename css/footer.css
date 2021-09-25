@@ -1,0 +1,13 @@
+/*Footer*/
+footer{
+    display: block;
+    text-align: center;
+    background-color: var(--main-color);
+    padding: 1.5rem;
+    color: var(--color-dark);
+}
+
+footer img{
+    width: 25px;
+    margin-right: 10px;
+}

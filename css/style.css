@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-color: #FF9F1C;
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+    --var-green: #CBF3F0;
+}
+
 body {
     margin: 0;
     font-family: 'Oxygen', sans-serif;
@@ -71,11 +78,11 @@ h1 {
 }
 
 .col {
-    flex: 1 0 0%;
+    flex: 1 0 0;
 }
 
 .main-title {
-    padding: 10rem 0rem 15rem 15rem;
+    padding: 10rem 0 15rem 15rem;
     font-size: 1.3rem;
 }
 
@@ -104,7 +111,7 @@ h1 {
 }
 
 .second-text {
-    padding: 10rem 10rem 10rem 0rem;
+    padding: 10rem 10rem 10rem 0;
     font-size: 1.3rem;
     line-height: 2rem;
 }
