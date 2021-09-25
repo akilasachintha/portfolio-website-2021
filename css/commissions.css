@@ -1,30 +1,32 @@
-:root{
+:root {
     --table-head: #2EC4B6;
     --table-back: #CBF3F0;
 }
 
-.content{
+.content {
     padding: 100px;
 }
 
-table{
+table {
     width: 100%;
     border-radius: 24px;
 }
 
-table thead{
+table thead {
     background-color: var(--table-head);
 }
 
-table tbody{
+table tbody {
     background-color: var(--table-back);
 }
-thead th, tbody td {
+
+thead th,
+tbody td {
     padding: 5px;
     text-align: center;
 }
 
-.long-text{
+.long-text {
     text-align: left;
     padding-left: 20px;
 }
@@ -43,7 +45,7 @@ ul li::before {
     font-size: larger;
 }
 
-button{
+button {
     background-color: var(--main-color);
     border: none;
     color: var(--color-light);
@@ -52,10 +54,9 @@ button{
     font-size: 20px;
     width: fit-content;
     padding: 10px 30px;
-    margin-left: 22px;
 }
 
-.row strong{
+.row strong {
     margin-top: 30px;
     font-size: 24px;
 }
