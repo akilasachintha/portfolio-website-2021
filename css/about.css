@@ -1,0 +1,29 @@
+.row{
+    padding: 88px;
+}
+
+.left{
+    text-align: center;
+    padding: 0 10rem 10rem 10rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.right{
+    text-align: center;
+    padding: 10rem 10rem 10rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.middle{
+    background-color: var(--main-color);
+    color: var(--color-light);
+}
+
+.row img{
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
