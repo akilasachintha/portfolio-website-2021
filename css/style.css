@@ -133,6 +133,10 @@ hr {
     margin: 8px;
 }
 
+.social-media-pressed img{
+    display: none;
+}
+
 
 /* Main Content */
 
