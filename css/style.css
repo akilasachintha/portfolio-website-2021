@@ -93,3 +93,18 @@ h1 {
     border-radius: 2rem;
     border: 0;
 }
+
+
+/* Content - main Page */
+
+.second-img {
+    width: 50%;
+    height: 100%;
+    padding-left: 5rem;
+}
+
+.second-text {
+    padding: 10rem 10rem 10rem 0rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
